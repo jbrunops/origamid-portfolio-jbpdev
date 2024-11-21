@@ -1,0 +1,17 @@
+body {
+  font-family: "Fire Sans", Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
