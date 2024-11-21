@@ -1,0 +1,41 @@
+.introducao {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* background-color: aqua; */
+  gap: 100px;
+  align-items: center;
+}
+
+.introducao h1 {
+  font-size: 4.5rem;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .introducao h1 {
+    font-size: 3.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .introducao {
+    text-align: center;
+    grid-template-columns: 1fr;
+    /* background-color: aqua; */
+  }
+  .introducao img {
+    display: none;
+  }
+
+  .introducao h1 {
+    font-size: 2rem;
+  }
+}
