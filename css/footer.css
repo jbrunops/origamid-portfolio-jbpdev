@@ -1,0 +1,21 @@
+.footer {
+  background-color: #000000;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #a0a0a0;
+  margin-bottom: 140px;
+}
